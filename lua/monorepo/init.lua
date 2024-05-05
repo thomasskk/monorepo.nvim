@@ -10,6 +10,7 @@ M.config = {
   silent = false,
   autoload_telescope = true,
   data_path = vim.fn.stdpath("data"),
+  on_select = nil,
 }
 
 ---@class pluginConfig
